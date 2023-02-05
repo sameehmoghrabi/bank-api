@@ -15,8 +15,9 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Account {
-    private @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY) Long id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
     private Double balance = 0.0;
 

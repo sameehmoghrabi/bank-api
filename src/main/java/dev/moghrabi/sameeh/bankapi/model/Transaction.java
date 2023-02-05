@@ -13,8 +13,9 @@ import javax.persistence.*;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Transaction {
-    private @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY) Long id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     private Double amount = 0.0;
     @JsonBackReference
     @ManyToOne()
