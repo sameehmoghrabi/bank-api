@@ -9,9 +9,10 @@ public class BankApiApplication {
     // and to only show the necessary info for the end user
     //TODO Handling of remaining exceptions
     //TODO Handling of request bodies
+    //TODO handling of validations
     //TODO use enum for constants instead of class
     //TODO add logs
-    // Response entity
+    //TODO Response entity
     public static void main(String[] args) {
         SpringApplication.run(BankApiApplication.class, args);
     }
