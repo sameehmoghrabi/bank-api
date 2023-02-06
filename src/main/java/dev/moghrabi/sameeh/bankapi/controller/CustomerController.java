@@ -8,7 +8,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+@CrossOrigin
 @RestController
 @RequestMapping("/v1/customers")
 public class CustomerController {
@@ -22,7 +22,7 @@ public class CustomerController {
         return CommonConst.Feedback.NEW_CUSTOMER_CREATED;
     }
 
-    @ResponseStatus(HttpStatus.FOUND)
+    @ResponseStatus(HttpStatus.OK)
     @GetMapping("/{id}")
     public Customer one(@PathVariable Long id) {
         return customerService.getCustomerById(id);
