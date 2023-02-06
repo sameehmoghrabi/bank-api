@@ -50,7 +50,8 @@ POST /v1/customers/add - creates a new cutomer
 ---
 - Maven
 
-### Run & Build___
+### Run & Build
+___
 *$PORT: 8080*
 ```ssh
 $ cd bank-app
