@@ -1,4 +1,4 @@
-package dev.moghrabi.sameeh.bankapi;
+package dev.moghrabi.sameeh.bankapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

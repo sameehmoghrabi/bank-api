@@ -1,7 +1,7 @@
-package dev.moghrabi.sameeh.bankapi.configuration;
+package dev.moghrabi.sameeh.bankapp.configuration;
 
-import dev.moghrabi.sameeh.bankapi.model.Customer;
-import dev.moghrabi.sameeh.bankapi.repository.CustomerRepository;
+import dev.moghrabi.sameeh.bankapp.model.Customer;
+import dev.moghrabi.sameeh.bankapp.repository.CustomerRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;

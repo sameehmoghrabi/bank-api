@@ -1,6 +1,6 @@
-package dev.moghrabi.sameeh.bankapi.repository;
+package dev.moghrabi.sameeh.bankapp.repository;
 
-import dev.moghrabi.sameeh.bankapi.model.Customer;
+import dev.moghrabi.sameeh.bankapp.model.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

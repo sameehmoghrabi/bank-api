@@ -1,6 +1,6 @@
-package dev.moghrabi.sameeh.bankapi.controller.advice;
+package dev.moghrabi.sameeh.bankapp.controller.advice;
 
-import dev.moghrabi.sameeh.bankapi.exception.CustomerNotFoundException;
+import dev.moghrabi.sameeh.bankapp.exception.CustomerNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

@@ -1,7 +1,7 @@
-package dev.moghrabi.sameeh.bankapi.service;
+package dev.moghrabi.sameeh.bankapp.service;
 
-import dev.moghrabi.sameeh.bankapi.model.Account;
-import dev.moghrabi.sameeh.bankapi.model.Transaction;
+import dev.moghrabi.sameeh.bankapp.model.Account;
+import dev.moghrabi.sameeh.bankapp.model.Transaction;
 import org.springframework.stereotype.Service;
 
 @Service

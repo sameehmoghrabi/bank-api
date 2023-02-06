@@ -1,4 +1,4 @@
-package dev.moghrabi.sameeh.bankapi.exception;
+package dev.moghrabi.sameeh.bankapp.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

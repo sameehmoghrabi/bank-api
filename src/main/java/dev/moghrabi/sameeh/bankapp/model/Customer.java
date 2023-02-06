@@ -1,4 +1,4 @@
-package dev.moghrabi.sameeh.bankapi.model;
+package dev.moghrabi.sameeh.bankapp.model;
 
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;

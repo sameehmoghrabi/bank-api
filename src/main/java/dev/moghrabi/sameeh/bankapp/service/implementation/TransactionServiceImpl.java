@@ -1,9 +1,9 @@
-package dev.moghrabi.sameeh.bankapi.service.implementation;
+package dev.moghrabi.sameeh.bankapp.service.implementation;
 
-import dev.moghrabi.sameeh.bankapi.model.Account;
-import dev.moghrabi.sameeh.bankapi.model.Transaction;
-import dev.moghrabi.sameeh.bankapi.repository.TransactionRepository;
-import dev.moghrabi.sameeh.bankapi.service.TransactionService;
+import dev.moghrabi.sameeh.bankapp.model.Account;
+import dev.moghrabi.sameeh.bankapp.model.Transaction;
+import dev.moghrabi.sameeh.bankapp.repository.TransactionRepository;
+import dev.moghrabi.sameeh.bankapp.service.TransactionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

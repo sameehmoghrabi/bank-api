@@ -1,9 +1,9 @@
-package dev.moghrabi.sameeh.bankapi.controller;
+package dev.moghrabi.sameeh.bankapp.controller;
 
-import dev.moghrabi.sameeh.bankapi.constant.CommonConst;
-import dev.moghrabi.sameeh.bankapi.dto.CreateAccountDto;
-import dev.moghrabi.sameeh.bankapi.model.Account;
-import dev.moghrabi.sameeh.bankapi.service.AccountService;
+import dev.moghrabi.sameeh.bankapp.constant.CommonConst;
+import dev.moghrabi.sameeh.bankapp.dto.CreateAccountDto;
+import dev.moghrabi.sameeh.bankapp.model.Account;
+import dev.moghrabi.sameeh.bankapp.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

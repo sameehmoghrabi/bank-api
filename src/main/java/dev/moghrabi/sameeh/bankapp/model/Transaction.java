@@ -1,7 +1,7 @@
-package dev.moghrabi.sameeh.bankapi.model;
+package dev.moghrabi.sameeh.bankapp.model;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
-import dev.moghrabi.sameeh.bankapi.constant.CommonConst;
+import dev.moghrabi.sameeh.bankapp.constant.CommonConst;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

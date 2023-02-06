@@ -1,9 +1,9 @@
-package dev.moghrabi.sameeh.bankapi.service;
+package dev.moghrabi.sameeh.bankapp.service;
 
-import dev.moghrabi.sameeh.bankapi.dto.CreateAccountDto;
-import dev.moghrabi.sameeh.bankapi.model.Account;
-import dev.moghrabi.sameeh.bankapi.model.Customer;
-import dev.moghrabi.sameeh.bankapi.repository.AccountRepository;
+import dev.moghrabi.sameeh.bankapp.dto.CreateAccountDto;
+import dev.moghrabi.sameeh.bankapp.model.Account;
+import dev.moghrabi.sameeh.bankapp.model.Customer;
+import dev.moghrabi.sameeh.bankapp.repository.AccountRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

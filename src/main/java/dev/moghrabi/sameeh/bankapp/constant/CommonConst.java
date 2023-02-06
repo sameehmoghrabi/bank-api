@@ -1,4 +1,4 @@
-package dev.moghrabi.sameeh.bankapi.constant;
+package dev.moghrabi.sameeh.bankapp.constant;
 
 public class CommonConst {
 

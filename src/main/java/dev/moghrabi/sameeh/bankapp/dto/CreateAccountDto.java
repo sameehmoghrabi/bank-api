@@ -1,6 +1,6 @@
-package dev.moghrabi.sameeh.bankapi.dto;
+package dev.moghrabi.sameeh.bankapp.dto;
 
-import dev.moghrabi.sameeh.bankapi.constant.CommonConst;
+import dev.moghrabi.sameeh.bankapp.constant.CommonConst;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

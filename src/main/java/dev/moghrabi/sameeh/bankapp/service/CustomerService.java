@@ -1,8 +1,8 @@
-package dev.moghrabi.sameeh.bankapi.service;
+package dev.moghrabi.sameeh.bankapp.service;
 
-import dev.moghrabi.sameeh.bankapi.exception.CustomerNotFoundException;
-import dev.moghrabi.sameeh.bankapi.model.Customer;
-import dev.moghrabi.sameeh.bankapi.repository.CustomerRepository;
+import dev.moghrabi.sameeh.bankapp.exception.CustomerNotFoundException;
+import dev.moghrabi.sameeh.bankapp.model.Customer;
+import dev.moghrabi.sameeh.bankapp.repository.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
