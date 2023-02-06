@@ -53,7 +53,7 @@ POST /v1/customers/add - creates a new cutomer
 ### Run & Build___
 *$PORT: 8080*
 ```ssh
-$ cd account/account-api
+$ cd bank-app
 $ mvn clean install
 $ java -jar target/bank-app-1.0.jar 
 ```
